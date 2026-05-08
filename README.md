@@ -60,11 +60,8 @@ logistics-data-engineering/
 ---
 
 # Pipeline ETL
-
-
-```md
-## Pipeline ETL
 ```
+
 
 O pipeline executa as seguintes etapas:
 
