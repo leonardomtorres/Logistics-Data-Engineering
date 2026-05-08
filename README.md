@@ -117,7 +117,14 @@ docker compose up -d
 python scripts/etl.py
 ```
 
+## Insights Analíticos
 
+O projeto também contempla visualização de indicadores logísticos no Power BI, permitindo:
+
+- Identificação de veículos mais lucrativos
+- Análise operacional
+- Métricas logísticas
+- Dashboards interativos
 
 
 
