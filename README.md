@@ -76,46 +76,36 @@ O pipeline executa as seguintes etapas:
 
 ## Como Executar
 
-### 1. Clonar repositório
 
-
-git clone https://github.com/leonardomtorres/Logistics-Data-Engineering
+1. **Clonar repositório**
+```bash
+   git clone https://github.com/leonardomtorres/Logistics-Data-Engineering
 ```
 
-### 2. Criar ambiente virtual
-
+2. **Criar e ativar ambiente virtual**
 ```bash
-python -m venv venv
+   python -m venv venv
+   
+   # Windows
+   venv\Scripts\activate
+   
+   # Linux/Mac
+   source venv/bin/activate
 ```
 
-### 3. Ativar ambiente
-
-#### Windows
+3. **Instalar dependências**
 ```bash
-venv\Scripts\activate
+   pip install -r requirements.txt
 ```
 
-#### Linux/Mac
+4. **Subir PostgreSQL com Docker**
 ```bash
-source venv/bin/activate
+   docker compose up -d
 ```
 
-### 4. Instalar dependências
-
+5. **Executar pipeline ETL**
 ```bash
-pip install -r requirements.txt
-```
-
-### 5. Subir PostgreSQL com Docker
-
-```bash
-docker compose up -d
-```
-
-### 6. Executar pipeline ETL
-
-```bash
-python scripts/etl.py
+   python scripts/etl.py
 ```
 
 ## Insights Analíticos
