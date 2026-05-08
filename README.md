@@ -83,17 +83,22 @@ O pipeline executa as seguintes etapas:
 ```
 
 2. **Criar e ativar ambiente virtual**
-bash  
-   python -m venv venv  
+```bash  
+   python -m venv venv
+```     
    
    # Windows
+   ```bash 
    venv\Scripts\activate
+   ```
    
    # Linux/Mac
+   ```bash 
    source venv/bin/activate
+    ```
 
 
-3. **Instalar dependências**
+4. **Instalar dependências**
 ```bash
    pip install -r requirements.txt
 ```
