@@ -155,38 +155,3 @@ Leonardo Marchetti Torres
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-FLUXOGRAMA 
-
-<img width="1536" height="1024" alt="fluxograma" src="https://github.com/user-attachments/assets/07c7e8d0-558f-40d6-b4da-e45ef903dac2" />  
-
-
-
-Estrutura do Projeto  
-
-  
-
-
-
-
-
-
-
