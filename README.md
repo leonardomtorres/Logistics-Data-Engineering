@@ -34,17 +34,17 @@ GitHub
 
 FLUXOGRAMA 
 
-<img width="1536" height="1024" alt="fluxograma" src="https://github.com/user-attachments/assets/07c7e8d0-558f-40d6-b4da-e45ef903dac2" />
+<img width="1536" height="1024" alt="fluxograma" src="https://github.com/user-attachments/assets/07c7e8d0-558f-40d6-b4da-e45ef903dac2" />  
 
 
 
-Estrutura do Projeto
+Estrutura do Projeto  
 
-<img width="1917" height="1042" alt="Estrutura" src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" />
+<img width="1917" height="1042" alt="Estrutura" src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" />  
 
-INSIGHT PowerBI do transporte que gera mais lucro
+INSIGHT PowerBI do transporte que gera mais lucro  
 
-<img width="1916" height="1002" alt="powerbi" src="https://github.com/user-attachments/assets/4def4248-3f86-48b2-aabf-b784f5c6818d" />
+<img width="1916" height="1002" alt="powerbi" src="https://github.com/user-attachments/assets/4def4248-3f86-48b2-aabf-b784f5c6818d" />  
 
 
 
