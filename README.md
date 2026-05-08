@@ -83,8 +83,8 @@ O pipeline executa as seguintes etapas:
 ```
 
 2. **Criar e ativar ambiente virtual**
-bash
-   python -m venv venv
+bash  
+   python -m venv venv  
    
    # Windows
    venv\Scripts\activate
