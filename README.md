@@ -66,9 +66,9 @@ git clone <url-do-repositorio>
 python -m venv venv
 3. Ativar ambiente virtual
 Windows
-.\venv\Scripts\activate
+.\venv\Scripts\activate  
 Instalação das Dependências
-pip install -r requirements.txt
+pip install -r requirements.txt  
 Executando PostgreSQL com Docker
 docker compose up -d
 
