@@ -5,9 +5,9 @@ import csv
 
 print("Iniciando extração...")
 
-# =========================
+
 # EXTRAÇÃO
-# =========================
+
 
 df = pd.read_csv(
     "data/raw/amazon_delivery.csv",
@@ -17,9 +17,9 @@ df = pd.read_csv(
 
 print("Transformando dados...")
 
-# =========================
+
 # TRANSFORMAÇÃO
-# =========================
+
 
 df.drop_duplicates(inplace=True)
 
@@ -33,9 +33,9 @@ if "Order_Date" in df.columns:
 
 df["lucro"] = 10.0
 
-# =========================
+
 # LIMPEZA TEXTO
-# =========================
+
 
 for col in df.select_dtypes(include=["object", "string"]).columns:
 
@@ -48,9 +48,9 @@ for col in df.select_dtypes(include=["object", "string"]).columns:
         .strip()
     )
 
-# =========================
+
 # REMOVE NULOS
-# =========================
+
 
 for col in df.select_dtypes(include=["object", "string"]).columns:
     df[col] = df[col].fillna("")
@@ -58,9 +58,9 @@ for col in df.select_dtypes(include=["object", "string"]).columns:
 for col in df.select_dtypes(include=["float64", "int64"]).columns:
     df[col] = df[col].fillna(0)
 
-# =========================
+
 # SALVA CSV
-# =========================
+
 
 csv_path = "data/processed/dados_tratados.csv"
 
@@ -73,9 +73,9 @@ df.to_csv(
 
 print("CSV tratado salvo.")
 
-# =========================
+
 # POSTGRESQL
-# =========================
+
 
 print("Enviando para PostgreSQL...")
 
@@ -83,9 +83,9 @@ engine = create_engine(
     "postgresql+psycopg2://etl_user:etl123@127.0.0.1:5432/logistics"
 )
 
-# =========================
+
 # CARGA
-# =========================
+
 
 try:
 
