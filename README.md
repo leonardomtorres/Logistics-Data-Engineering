@@ -55,7 +55,7 @@ logistics-data-engineering/
 └── README.md
 
 
-Isso passa MUITA organização.
+
 
 ---
 
