@@ -58,8 +58,8 @@ Tratamento e Limpeza
      ↓  
 PostgreSQL (Docker)  
      ↓  
-Análises e consultas SQL
-Configuração do Ambiente
+Análises e consultas SQL  
+Configuração do Ambiente  
 1. Clonar repositório
 git clone <url-do-repositorio>
 2. Criar ambiente virtual
