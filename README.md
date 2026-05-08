@@ -61,10 +61,10 @@ Isso passa MUITA organização.
 
 # Pipeline ETL
 
-Aqui você demonstra maturidade técnica.
 
 ```md
 ## Pipeline ETL
+```
 
 O pipeline executa as seguintes etapas:
 
