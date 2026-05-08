@@ -77,7 +77,7 @@ O pipeline executa as seguintes etapas:
 
 ### 1. Clonar repositório
 
-```bash
+
 git clone https://github.com/leonardomtorres/Logistics-Data-Engineering
 ```
 
