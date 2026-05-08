@@ -49,15 +49,15 @@ INSIGHT PowerBI do transporte que gera mais lucro
 
 
 
-Fluxo da Pipeline
-Dataset CSV
-     ↓
-Python + Pandas
-     ↓
-Tratamento e Limpeza
-     ↓
-PostgreSQL (Docker)
-     ↓
+Fluxo da Pipeline  
+Dataset CSV  
+     ↓  
+Python + Pandas  
+     ↓  
+Tratamento e Limpeza  
+     ↓  
+PostgreSQL (Docker)  
+     ↓  
 Análises e consultas SQL
 Configuração do Ambiente
 1. Clonar repositório
