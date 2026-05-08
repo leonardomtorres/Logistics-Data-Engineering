@@ -126,7 +126,10 @@ O projeto também contempla visualização de indicadores logísticos no Power B
 - Identificação de veículos mais lucrativos
 - Análise operacional
 - Métricas logísticas
-- Dashboards interativos
+
+INSIGHT PowerBI do transporte que gera mais lucro  
+
+<img width="1916" height="1002" alt="powerbi" src="https://github.com/user-attachments/assets/4def4248-3f86-48b2-aabf-b784f5c6818d" />  
 
 
 ## Principais Aprendizados
@@ -179,9 +182,7 @@ Estrutura do Projeto
 
   
 
-INSIGHT PowerBI do transporte que gera mais lucro  
 
-<img width="1916" height="1002" alt="powerbi" src="https://github.com/user-attachments/assets/4def4248-3f86-48b2-aabf-b784f5c6818d" />  
 
 
 
