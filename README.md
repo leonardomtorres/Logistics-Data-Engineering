@@ -1,3 +1,10 @@
+# Logistics Data Engineering Pipeline
+
+Pipeline de Engenharia de Dados para processamento e análise logística utilizando Python, Pandas, PostgreSQL, Docker e Power BI.
+
+## Arquitetura do Pipeline
+
+
 Logistics Data Engineering
 
 Pipeline de Engenharia de Dados voltada para análise logística utilizando Python, Pandas, PostgreSQL e Docker.
