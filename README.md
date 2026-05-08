@@ -36,15 +36,15 @@ logistics-data-engineering/
 │
 ├── data/
 │   ├── raw/              # Dados brutos
-│   └── processed/        # Dados tratados
+│   └── processed/        # Dados tratados  
 │
-├── notebooks/            # Análises exploratórias
+├── notebooks/            # Análises exploratórias  
 │
-├── scripts/              # Scripts ETL
+├── scripts/              # Scripts ETL  
 │
-├── sql/                  # Queries SQL
+├── sql/                  # Queries SQL  
 │
-├── docs/                 # Documentação
+├── docs/                 # Documentação  
 │
 ├── venv/                 # Ambiente virtual Python
 │
