@@ -79,14 +79,14 @@ Principais Aprendizados
 
 Durante o desenvolvimento deste projeto foram aplicados conceitos importantes de Engenharia de Dados:
 
-Estruturação de projetos profissionais
-Criação de ambientes isolados com venv
-Manipulação e limpeza de dados com Pandas
-Integração Python + PostgreSQL
-Conexão utilizando SQLAlchemy
-Containers Docker para banco de dados
-Organização de pipeline de dados
-Versionamento com Git e GitHub
+Estruturação de projetos profissionais  
+Criação de ambientes isolados com venv  
+Manipulação e limpeza de dados com Pandas  
+Integração Python + PostgreSQL  
+Conexão utilizando SQLAlchemy  
+Containers Docker para banco de dados  
+Organização de pipeline de dados  
+Versionamento com Git e GitHub  
 
 
 Autor
