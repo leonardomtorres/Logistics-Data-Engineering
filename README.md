@@ -30,6 +30,8 @@ O pipeline foi desenvolvido com foco em:
 
 ## Estrutura do Projeto
 
+<img width="1917" height="1042" alt="Estrutura" src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" />
+
 ```bash
 logistics-data-engineering/
 │
@@ -175,7 +177,7 @@ FLUXOGRAMA
 
 Estrutura do Projeto  
 
-<img width="1917" height="1042" alt="Estrutura" src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" />  
+  
 
 INSIGHT PowerBI do transporte que gera mais lucro  
 
