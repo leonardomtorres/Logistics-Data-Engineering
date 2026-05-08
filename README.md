@@ -95,7 +95,7 @@ O pipeline executa as seguintes etapas:
    # Linux/Mac
    ```bash 
    source venv/bin/activate
-    ```
+   ```
 
 
 4. **Instalar dependências**
