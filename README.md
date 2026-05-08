@@ -17,6 +17,8 @@ Executar o banco em containers Docker
 Organizar o ambiente utilizando Docker Compose
 Criar uma estrutura preparada para futuras automações ETL
 Versionar todo o projeto com Git e GitHub
+
+
 Tecnologias Utilizadas
 Python
 Pandas
@@ -30,28 +32,21 @@ Jupyter Notebook
 Git
 GitHub
 
+FLUXOGRAMA 
+
+<img width="1536" height="1024" alt="fluxograma" src="https://github.com/user-attachments/assets/07c7e8d0-558f-40d6-b4da-e45ef903dac2" />
+
+
 
 Estrutura do Projeto
-logistics-data-engineering/
-│
-├── data/
-│   ├── raw/              # Dados brutos
-│   └── processed/        # Dados tratados  
-│
-├── notebooks/            # Análises exploratórias  
-│
-├── scripts/              # Scripts ETL  
-│
-├── sql/                  # Queries SQL  
-│
-├── docs/                 # Documentação  
-│
-├── venv/                 # Ambiente virtual Python
-│
-├── docker-compose.yml    # Configuração Docker
-├── requirements.txt      # Dependências Python
-├── README.md             # Documentação principal
-└── .gitignore
+
+<img width="1917" height="1042" alt="Estrutura" src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" />
+
+INSIGHT PowerBI do transporte que gera mais lucro
+
+<img width="1916" height="1002" alt="powerbi" src="https://github.com/user-attachments/assets/4def4248-3f86-48b2-aabf-b784f5c6818d" />
+
+
 
 
 Fluxo da Pipeline
