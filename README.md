@@ -4,6 +4,29 @@ Pipeline de Engenharia de Dados para processamento e análise logística utiliza
 
 ## Arquitetura do Pipeline
 
+## Objetivo
+
+Este projeto simula um pipeline moderno de Engenharia de Dados aplicado ao contexto logístico, contemplando ingestão, transformação, armazenamento e análise de dados.
+
+O pipeline foi desenvolvido com foco em:
+- Organização de ambientes de dados
+- Processos ETL
+- Integração Python + PostgreSQL
+- Containerização com Docker
+- Estrutura escalável para análises futuras
+
+- ## Stack Tecnológica
+
+| Categoria | Tecnologias |
+|---|---|
+| Linguagem | Python |
+| Processamento | Pandas, NumPy |
+| Banco de Dados | PostgreSQL |
+| ORM/Conexão | SQLAlchemy, psycopg2 |
+| Containerização | Docker, Docker Compose |
+| Visualização | Power BI |
+| Versionamento | Git, GitHub |
+
 
 Logistics Data Engineering
 
