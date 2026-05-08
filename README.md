@@ -28,39 +28,120 @@ O pipeline foi desenvolvido com foco em:
 | Versionamento | Git, GitHub |
 
 
-Logistics Data Engineering
+## Estrutura do Projeto
 
-Pipeline de Engenharia de Dados voltada para análise logística utilizando Python, Pandas, PostgreSQL e Docker.
+```bash
+logistics-data-engineering/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── analytics/
+│
+├── scripts/
+│   └── etl.py
+│
+├── sql/
+│   └── analysis.sql
+│
+├── dashboard/
+│
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 
-Visão Geral do Projeto
 
-Este projeto foi desenvolvido com o objetivo de simular um ambiente real de Engenharia de Dados, aplicando conceitos de ingestão, transformação, armazenamento e preparação de dados logísticos.
+Isso passa MUITA organização.
 
-A proposta do projeto é construir uma pipeline organizada e escalável para tratamento de dados logísticos utilizando tecnologias amplamente utilizadas pelo mercado.
+---
 
-Objetivos
-Estruturar um projeto de Engenharia de Dados de forma profissional
-Trabalhar com ingestão e tratamento de dados CSV
-Utilizar Python e Pandas para transformação de dados
-Utilizar PostgreSQL como banco de dados relacional
-Executar o banco em containers Docker
-Organizar o ambiente utilizando Docker Compose
-Criar uma estrutura preparada para futuras automações ETL
-Versionar todo o projeto com Git e GitHub
+# Pipeline ETL
+
+Aqui você demonstra maturidade técnica.
+
+```md
+## Pipeline ETL
+
+O pipeline executa as seguintes etapas:
+
+1. Extração dos dados CSV
+2. Limpeza e padronização
+3. Tratamento de valores nulos
+4. Transformações analíticas
+5. Carga no PostgreSQL
+6. Consultas SQL para análise
+7. Visualização no Power BI
 
 
-Tecnologias Utilizadas
-Python
-Pandas
-NumPy
-PostgreSQL
-SQLAlchemy
-psycopg2-binary
-Docker
-Docker Compose
-Jupyter Notebook
-Git
-GitHub
+## Como Executar
+
+### 1. Clonar repositório
+
+```bash
+git clone https://github.com/seuusuario/logistics-data-engineering.git
+```
+
+### 2. Criar ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+### 3. Ativar ambiente
+
+#### Windows
+```bash
+venv\Scripts\activate
+```
+
+#### Linux/Mac
+```bash
+source venv/bin/activate
+```
+
+### 4. Instalar dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Subir PostgreSQL com Docker
+
+```bash
+docker compose up -d
+```
+
+### 6. Executar pipeline ETL
+
+```bash
+python scripts/etl.py
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 FLUXOGRAMA 
 
@@ -79,46 +160,4 @@ INSIGHT PowerBI do transporte que gera mais lucro
 
 
 
-Fluxo da Pipeline  
-Dataset CSV  
-     ↓  
-Python + Pandas  
-     ↓  
-Tratamento e Limpeza  
-     ↓  
-PostgreSQL (Docker)  
-     ↓  
-Análises e consultas SQL  
-Configuração do Ambiente  
-1. Clonar repositório
-git clone <url-do-repositorio>
-2. Criar ambiente virtual
-python -m venv venv
-3. Ativar ambiente virtual
-Windows
-.\venv\Scripts\activate  
-Instalação das Dependências
-pip install -r requirements.txt  
-Executando PostgreSQL com Docker
-docker compose up -d
 
-Verificar containers:
-
-docker ps
-Principais Aprendizados
-
-Durante o desenvolvimento deste projeto foram aplicados conceitos importantes de Engenharia de Dados:
-
-Estruturação de projetos profissionais  
-Criação de ambientes isolados com venv  
-Manipulação e limpeza de dados com Pandas  
-Integração Python + PostgreSQL  
-Conexão utilizando SQLAlchemy  
-Containers Docker para banco de dados  
-Organização de pipeline de dados  
-Versionamento com Git e GitHub  
-
-
-Autor
-
-Projeto desenvolvido por Leonardo Marchetti Torres.
