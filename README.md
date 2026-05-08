@@ -127,7 +127,24 @@ O projeto também contempla visualização de indicadores logísticos no Power B
 - Dashboards interativos
 
 
+## Principais Aprendizados
 
+Durante o desenvolvimento deste projeto foram aplicados conceitos como:
+
+- Engenharia de dados orientada a pipelines
+- Processos ETL
+- Integração Python + PostgreSQL
+- Manipulação de dados com Pandas
+- Containerização de serviços
+- Versionamento Git/GitHub
+- Organização de projetos escaláveis
+
+## Autor
+
+Leonardo Marchetti Torres
+
+[LinkedIn](https://www.linkedin.com/in/leonardomarchettitorres/)
+[GitHub](https://github.com/leonardomtorres)
 
 
 
