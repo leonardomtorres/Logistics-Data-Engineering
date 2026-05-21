@@ -30,9 +30,7 @@ O pipeline foi desenvolvido com foco em:
 
 ## Estrutura do Projeto
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0c4d3287-4d2a-4b5c-9e9b-b9a64fe40ac9" width="1000"/>
-</p>
+
 
 ```bash
 logistics-data-engineering/
